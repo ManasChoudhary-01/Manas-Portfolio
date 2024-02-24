@@ -1039,7 +1039,7 @@ footer p{
 @media(max-width:400px){
 
     #loader h1{
-        font-size: 6vw;
+        font-size: font-size: 28px;;
     }
     .logo {
         font-size: 5vw;
@@ -1066,7 +1066,7 @@ footer p{
         padding: 0 20px;
     }
     .Home {
-        height: 129vh;
+        height: 100vh;
         padding-bottom: 5vh;
         flex-direction: column;
     }
@@ -1089,10 +1089,6 @@ footer p{
         height: 6.1vw;
         font-size: 3.4vw;
         border-radius: 3vw;
-    }
-    .About {
-        padding-top: 4vh;
-        
     }
     .med3 {
         font-size: 3.8vw;
@@ -1179,13 +1175,10 @@ footer p{
         font-size: 5vw;   
     }
     .footer p{
-        font-size: 4.5vw;
+        font-size: 7vw;
     }
     footer {
         height: 10vh;
-    }
-    .slide-container {
-        height: 45vw;
     }
     #btn3 {
         border: 1px;
@@ -1209,7 +1202,7 @@ footer p{
     }
     .slide-container {
         margin-top: 5vh;
-        height: 80vh;
+        height: 50vh;
     }
     .slide {
         margin: 1.8vw 11vw;
@@ -1219,25 +1212,25 @@ footer p{
     }
     .content-4 h6 {
         font-size: 4.5vw;
-        transform: translate3d(-8vw,-46vw,0);
+        transform: translate3d(-8vw,-56vw,0);
     }
     .content-4 p{
         width: 63vw;
         font-size: 4vw;
         line-height: 4vw;
         text-align: center;
-        transform: translate3d(-14vw,-7vw,0);
+        transform: translate3d(-14vw,-17vw,0);
     }
     .tech-used {
         font-size: 4vw;
         padding-top: 3vw;
         gap: 3vw;
-        transform: translateY(-8vw);
+        transform: translateY(-18vw);
     }
     .med8 {
         padding-top: 0vw;
         gap: 3vw;
-        transform: translate3d(-19vw,-5vw,0);
+        transform: translate3d(-19vw,-15vw,0);
     }
     
     #btn2, #btn3 {
@@ -1252,7 +1245,7 @@ footer p{
         margin-top: 10vh;
         height: 32vw;
         width: 68vw;
-        transform: translateX(2vw);
+        transform: translate3d(2vw,-6vw,0);
     }
     .arrow {
         top: 26vw;
@@ -1317,17 +1310,26 @@ footer p{
         height: 7vw;
         border-radius: 0.7vw;
     }
-        .About {
+    .About {
         height: fit-content;
+        padding-top: 4vh;
     }
     .Skills {
         height: fit-content;
+        padding-bottom: 2vh;
     }
     .Contact {
         height: fit-content;
+        padding-top: 4vh;
+        padding-bottom: 3vh;
     }
     .Projects {
         height: fit-content;
+        padding: 3vh 3%;
+    }
+    .med7 {
+        margin-top: 1vh;
+        margin-bottom: 0vh;
     }
 
 }
