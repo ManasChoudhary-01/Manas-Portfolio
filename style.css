@@ -1082,7 +1082,7 @@ footer p{
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translateY(19vw);
+        transform: translateY(-15vw);
     }
     #btn1 {
         width: 38vw;
@@ -1331,6 +1331,9 @@ footer p{
         margin-top: 1vh;
         margin-bottom: 0vh;
     }
+    .proffesion{
+        font-size: 7.5vw;
+    }
 
 }
 @media(max-width:300px){
@@ -1338,10 +1341,13 @@ footer p{
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translateY(30vw);
+        transform: translate3d(0,-50vw,0);
     }
     .Home {
         height: 100vh;
+    }
+    .proffesion{
+        font-size: 7.4vw;
     }
 
 }
