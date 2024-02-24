@@ -1317,6 +1317,28 @@ footer p{
         height: 7vw;
         border-radius: 0.7vw;
     }
+        .About {
+        height: fit-content;
+    }
+    .Skills {
+        height: fit-content;
+    }
+    .Contact {
+        height: fit-content;
+    }
+    .Projects {
+        height: fit-content;
+    }
+
+}
+@media(max-width:300px){
+
+    .Home img {
+        height: 60vw;
+        width: 45vw;
+        transform: translateY(-40vw);
+    }
+}
 
 }
 
