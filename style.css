@@ -1338,16 +1338,23 @@ footer p{
 
 }
 @media(max-width:340px){
+    #loader h1{
+        font-size: font-size: 40px;;
+    }
     .Home img {
         transform: translateY(-2vw);
     }
 }    
 @media(max-width:300px){
 
+    #loader h1{
+        font-size: font-size: 40px;;
+    }
+
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translate3d(0,-1vw,0);
+        transform: translate3d(0,10px,0);
     }
 
     .proffesion{
