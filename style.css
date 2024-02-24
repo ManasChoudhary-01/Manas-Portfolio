@@ -1039,13 +1039,14 @@ footer p{
 @media(max-width:400px){
 
     #loader h1{
-        font-size: font-size: 48px;;
+        font-size: font-size: 40px;;
     }
     .logo {
         font-size: 5vw;
     }
     .social-media {
         transform: translate3d(0,65vw,0);
+        display: none;
     }
     .social-media a {
         height: 9vw;
@@ -1066,7 +1067,7 @@ footer p{
         padding: 0 20px;
     }
     .Home {
-        height: 130vh;
+        height: 160vw;
         padding-bottom: 5vh;
         flex-direction: column;
     }
@@ -1082,7 +1083,7 @@ footer p{
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translateY(-15vw);
+        transform: translateY(-8vw);
     }
     #btn1 {
         width: 38vw;
@@ -1336,16 +1337,19 @@ footer p{
     }
 
 }
+@media(max-width:340px){
+    .Home img {
+        transform: translateY(-2vw);
+    }
+}    
 @media(max-width:300px){
 
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translate3d(0,-50vw,0);
+        transform: translate3d(0,-1vw,0);
     }
-    .Home {
-        height: 100vh;
-    }
+
     .proffesion{
         font-size: 7.4vw;
     }
