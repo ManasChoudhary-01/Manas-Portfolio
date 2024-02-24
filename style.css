@@ -1039,7 +1039,7 @@ footer p{
 @media(max-width:400px){
 
     #loader h1{
-        font-size: font-size: 28px;;
+        font-size: font-size: 48px;;
     }
     .logo {
         font-size: 5vw;
@@ -1066,7 +1066,7 @@ footer p{
         padding: 0 20px;
     }
     .Home {
-        height: 100vh;
+        height: 130vh;
         padding-bottom: 5vh;
         flex-direction: column;
     }
@@ -1082,7 +1082,7 @@ footer p{
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translateY(-6vw);
+        transform: translateY(19vw);
     }
     #btn1 {
         width: 38vw;
@@ -1338,9 +1338,11 @@ footer p{
     .Home img {
         height: 60vw;
         width: 45vw;
-        transform: translateY(-40vw);
+        transform: translateY(30vw);
     }
-}
+    .Home {
+        height: 100vh;
+    }
 
 }
 
