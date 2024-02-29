@@ -54,7 +54,10 @@ window.onscroll = () => {
       navLinks.forEach(link => {
         link.classList.remove('active');
       });
-      document.querySelector('header nav a[href="#' + id + '"]').classList.add('active');
+    var element = document.querySelector('header nav a[href="#' + id + '"]');
+    if (element) {
+        element.classList.add('active');
+    }
     };
   });
 };
