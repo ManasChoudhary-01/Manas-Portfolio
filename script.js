@@ -30,7 +30,7 @@ text.innerHTML = text.innerText.split("").map(
 // TYPING TEXT ANIMATION
 
 let typed = new Typed((".proffesion"), {
-    strings: ["Frontend Developer","UI Designer"],
+    strings: ["Frontend Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
